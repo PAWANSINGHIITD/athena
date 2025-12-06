@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Numeral System Library</h2>
+<ul>
+{% for key, s in systems.items() %}
+  <li><a href="{{ url_for('system_detail', key=key) }}">{{ s.title }}</a> — {{ s.summary }}</li>
+{% endfor %}
+</ul>
+{% endblock %}

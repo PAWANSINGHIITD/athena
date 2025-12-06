@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Converter Engine</h2>
+<form method="post">
+  <label><input type="radio" name="mode" value="to_culture" checked> Arabic → Cultural</label>
+  <label><input type="radio" name="mode" value="to_arabic"> Cultural → Arabic</label>
+  <br/>
+  <select name="system">
+    {% for key, s in systems.items() %}
+      <option value="{{ key }}">{{ s.title }}</option>
+    {% endfor %}
+  </select>
+  <input name="text" placeholder="Enter number or cultural representation">
+  <button type="submit">Convert</button>
+</form>
+{% if result %}
+<h3>Result</h3>
+<pre>{{ result }}</pre>
+{% endif %}
+{% if explanation %}
+<h4>Step-by-step explanation</h4>
+<p>{{ explanation }}</p>
+{% endif %}
+{% endblock %}

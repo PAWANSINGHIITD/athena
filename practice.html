@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Practice Zone (Olympiad-style)</h2>
+<ul>
+{% for p in puzzles %}
+  <li><a href="{{ url_for('practice_puzzle', pid=p.id) }}">{{ p.title }}</a> — {{ p.difficulty }}</li>
+{% endfor %}
+</ul>
+{% endblock %}

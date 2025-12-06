@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>{{ system.title }}</h2>
+<p><b>Base Structure:</b> {{ system.base }}</p>
+<p><b>Morphology & Construction Rules:</b> {{ system.morphology }}</p>
+<p><b>Recursive/Hierarchical Logic:</b> {{ system.hierarchy }}</p>
+<p><b>Cultural Context:</b> {{ system.context }}</p>
+<h3>Interactive Example</h3>
+<form method="post" action="{{ url_for('converter_page') }}">
+  <input type="hidden" name="mode" value="to_culture">
+  <input type="hidden" name="system" value="{{ request.view_args.key }}">
+  Number: <input name="text" value="42">
+  <button type="submit">Convert</button>
+</form>
+{% endblock %}

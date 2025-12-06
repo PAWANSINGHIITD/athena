@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Global Numeral Systems Explorer</h1>
+<p>Explore numeral systems, convert numbers, and solve puzzles.</p>
+<ul>
+  <li><a href="{{ url_for('library') }}">Numeral Library</a></li>
+  <li><a href="{{ url_for('converter_page') }}">Converter</a></li>
+  <li><a href="{{ url_for('practice') }}">Practice Zone</a></li>
+</ul>
+{% endblock %}

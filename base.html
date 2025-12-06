@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Numeral Systems App</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<nav><a href="{{ url_for('index') }}">Home</a> | <a href="{{ url_for('library') }}">Library</a> | <a href="{{ url_for('converter_page') }}">Converter</a> | <a href="{{ url_for('practice') }}">Practice</a></nav>
+<hr/>
+<div class="container">
+  {% block content %}{% endblock %}
+</div>
+<hr/>
+<footer><small>Built with developer expertise in Olympiad problem design & cross-cultural research.</small></footer>
+</body></html>
