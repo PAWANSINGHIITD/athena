@@ -1,0 +1,50 @@
+{
+  "roman": {
+    "title": "Roman Numerals",
+    "summary": "Additive-subtractive system used across Roman Empire.",
+    "base": "Non-positional additive with subtractive notation",
+    "morphology": "Uses symbols I, V, X, L, C, D, M with subtractive pairs like IV, IX.",
+    "hierarchy": "Symbols represent fixed values; order and subtraction determine totals.",
+    "context": "Used historically across Europe for numbering, inscriptions and clocks."
+  },
+  "mayan": {
+    "title": "Mayan Numerals",
+    "summary": "Vigesimal (base-20) using dots and bars; special shell for zero.",
+    "base": "Base-20 positional with dot (1) and bar (5) glyphs",
+    "morphology": "Glyphs stacked vertically; each level is a power of 20 (with historical exceptions).",
+    "hierarchy": "Vertical place-value stacking; special treatment for the third place historically.",
+    "context": "Used by Mesoamerican civilizations for calendrics and astronomy."
+  },
+  "chinese": {
+    "title": "Chinese Numerals",
+    "summary": "Multiplicative-additive system using characters for digits and units.",
+    "base": "Decimal positional expressed with characters and unit markers",
+    "morphology": "Uses characters for 0-9 and unit markers like 十,百,千.",
+    "hierarchy": "Multiplicative compounds produce numbers (e.g., 二百 = 2*100).",
+    "context": "Used in East Asia for millennia; forms the basis of many East Asian counting conventions."
+  },
+  "babylonian": {
+    "title": "Babylonian (Base-60)",
+    "summary": "Sexagesimal positional system influential in astronomy and timekeeping.",
+    "base": "Base-60 positional (sexagesimal)",
+    "morphology": "Composed using wedge-shaped marks; place values multiply by 60.",
+    "hierarchy": "High radix leads to compact representations for large numbers.",
+    "context": "Developed in Mesopotamia; underlies modern measures of time/angles."
+  },
+  "yoruba": {
+    "title": "Yoruba Numerals",
+    "summary": "West African vigesimal system with unique morphophonology.",
+    "base": "Base-20 compounds and subtractive phrasing",
+    "morphology": "Uses compounding like 'ogun' for 20; more complex expressions for many numbers.",
+    "hierarchy": "Compounds based on 20s and units; tone and morphology affect form.",
+    "context": "Used by Yoruba speakers; reflects cultural counting traditions."
+  },
+  "inuktitut": {
+    "title": "Inuktitut Counting (Notes)",
+    "summary": "Traditional body-tally methods; modern use often adopts Arabic numerals.",
+    "base": "Traditional non-positional tallies; modern decimal usage common",
+    "morphology": "Historic forms tied to gestures and tallying; contemporary practice uses Arabic digits.",
+    "hierarchy": "Cultural counting tied to tasks and environment rather than abstract place-value.",
+    "context": "Used by Inuit communities across Arctic regions."
+  }
+}

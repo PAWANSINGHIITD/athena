@@ -1,0 +1,26 @@
+[
+  {
+    "id": "p1",
+    "title": "Decode the Roman Pattern",
+    "difficulty": "Easy",
+    "prompt": "Given: I=1, V=5, X=10. What is XLII?",
+    "answer": "42",
+    "example": "XLII = 40 + 2"
+  },
+  {
+    "id": "p2",
+    "title": "Mayan Bars and Dots",
+    "difficulty": "Medium",
+    "prompt": "Interpret the glyph: --.. | ... (bars '-' =5, dots '.' =1, '|' separates places)",
+    "answer": "(5*5+2)*20 + 3",
+    "example": "--.. = 5+5+2 =12 in first place; then multiply by 20 etc."
+  },
+  {
+    "id": "p3",
+    "title": "Babylonian Place Value",
+    "difficulty": "Medium",
+    "prompt": "If [1][30] is a Babylonian number, what is it in Arabic?",
+    "answer": "90",
+    "example": "1*60 + 30 = 90"
+  }
+]
